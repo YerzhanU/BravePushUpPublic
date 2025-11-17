@@ -1,28 +1,67 @@
 Brave: Push-up Tracker — Privacy Policy
 
-Last updated: <date>
+Last updated: 2025-11-17
+Controller: Yerzhan Utkelbayev (Brave: Push-up Tracker)
+Contact: yerzhanutkelbayev[at]gmail.com
 
-We collect:
-• Email address and a user identifier (Firebase UID) when you sign in.
-• Fitness data you choose to sync (push-up sessions, rep counts, timestamps).
+1) What we collect
 
-Guests: All data stays on device. When you later sign in, you can backfill to your account.
+Account data (optional): Email address and a user identifier (Firebase UID) when you sign in with Apple or Google.
 
-Use of data:
-• Provide core features (sync, history, leaderboards).
-• Maintain your account.
+Workout data: Push-up sessions you create (timestamps, repetition counts, cadence/pace, session duration, and a stream of numeric distance samples with derived thresholds/flags).
 
-TrueDepth & Camera:
-We use TrueDepth to estimate distance during a session to count reps. We do not use it for facial recognition and do not store biometric templates. Raw depth is processed on-device; only session summaries are stored when you sign in.
+2) TrueDepth (Face ID) & Camera
 
-Sharing:
-We do not sell data. Data is stored with Firebase (Google) as our processor.
+The app uses Apple’s TrueDepth/ARKit face-tracking during a live session to read a numeric estimate of the face-to-device distance each frame.
 
-Tracking & ads:
-We do not track you across apps or websites and do not show ads.
+We store only numeric values (timestamps in seconds, centimeters, and simple derived states such as threshold and armed).
 
-Data retention:
-You may delete your account and all cloud data in the app (Account → Delete account) or by emailing <your email>.
+We do not collect or store photos, video, raw depth maps, face geometry/mesh, blend shapes, gaze/eye data, biometric templates, or any identifier from the TrueDepth system.
 
-Contact:
-yerzhanutkelbayev[at]gmail.com
+This data is used solely to detect push-up repetitions and pacing and to display the depth bar and rep count in the app. It is not used for identification, advertising, tracking, or profiling.
+
+If you deny Camera permission, TrueDepth features are unavailable.
+
+3) How we use data
+
+To provide core features: live rep counting, history, and leaderboards (if you sign in).
+
+To operate and secure your account (if you sign in).
+
+We do not use your data for targeted ads or cross-app tracking.
+
+4) Where data is stored & sharing
+
+Guests: All workout data stays on your device (app sandbox).
+
+Signed-in users (optional): If you sign in and choose to sync/import, the same numeric workout data (no images or face geometry) is stored in Firebase Firestore (Google Cloud) under your account to power history and leaderboards.
+
+Processors: Google/Firebase acts as our data processor. We do not sell data and do not share it with advertising networks.
+
+5) Retention & deletion
+
+Local data remains on your device until you delete the app or remove sessions.
+
+Cloud data (if you synced) is kept while your account is active.
+
+You can delete your cloud data and account in-app: Home → Account (top-right) → “Delete Account & Data.” This permanently deletes cloud sessions, rollups, follows, handle, leaderboard entries, and your account. You may be asked to re-authenticate with Apple/Google.
+
+6) Children
+
+The app is intended for users 13+. If you believe a child under 13 has provided personal data, contact us and we’ll remove it.
+
+7) Security
+
+We take reasonable technical and organizational measures to protect your information. No method of transmission or storage is 100% secure.
+
+8) International transfers
+
+Firebase may process data on servers outside your country. We rely on standard contractual safeguards provided by Google/Firebase where applicable.
+
+9) Changes
+
+We may update this policy from time to time. Material changes will be posted on this page with an updated “Last updated” date.
+
+10) Contact
+
+Questions? Email yerzhanutkelbayev[at]gmail.com

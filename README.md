@@ -46,22 +46,18 @@ Cloud data (if you synced) is kept while your account is active.
 
 You can delete your cloud data and account in-app: Home → Account (top-right) → “Delete Account & Data.” This permanently deletes cloud sessions, rollups, follows, handle, leaderboard entries, and your account. You may be asked to re-authenticate with Apple/Google.
 
-6) Children
-
-The app is intended for users 13+. If you believe a child under 13 has provided personal data, contact us and we’ll remove it.
-
-7) Security
+6) Security
 
 We take reasonable technical and organizational measures to protect your information. No method of transmission or storage is 100% secure.
 
-8) International transfers
+7) International transfers
 
 Firebase may process data on servers outside your country. We rely on standard contractual safeguards provided by Google/Firebase where applicable.
 
-9) Changes
+8) Changes
 
 We may update this policy from time to time. Material changes will be posted on this page with an updated “Last updated” date.
 
-10) Contact
+9) Contact
 
 Questions? Email yerzhanutkelbayev[at]gmail.com
